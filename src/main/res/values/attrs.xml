@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyLinearLayoutPull">
+        <attr name="head_view" format="reference"/>
+        <attr name="stick_view" format="reference"/>
+        <attr name="contents_view" format="reference"/>
+    </declare-styleable>
+
+</resources>
