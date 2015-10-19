@@ -1,4 +1,4 @@
-package com.hgsoft.mylibrary.adapter;
+package com.hgsoft.mylibrary.adapter.recycler;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -69,7 +69,6 @@ public abstract class BaseQuickAdapter<T> extends RecyclerView.Adapter<ViewHolde
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    System.out.println("onclick");
                     mOnItemClickListener.onItemClick(v, position);
                 }
             });
@@ -78,7 +77,6 @@ public abstract class BaseQuickAdapter<T> extends RecyclerView.Adapter<ViewHolde
             holder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
                 @Override
                 public boolean onLongClick(View v) {
-                    System.out.println("onLongClick");
                     mOnItemLongClickListener.onItemLongClick(v, position);
                     return true;
                 }

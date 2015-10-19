@@ -1,4 +1,4 @@
-package com.hgsoft.mylibrary.adapter;
+package com.hgsoft.mylibrary.adapter.recycler;
 
 import android.support.v7.widget.RecyclerView;
 import android.util.SparseArray;
