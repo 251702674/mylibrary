@@ -1,4 +1,4 @@
-package com.hgsoft.mylibrary.adapter.recycler;
+package com.hgsoft.mylibrary.adapter.pager;
 
 
 import android.support.v4.view.PagerAdapter;

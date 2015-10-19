@@ -58,6 +58,7 @@ public class MyLinearLayoutPull extends LinearLayout {
         return myHeadView;
     }
 
+    /* 获取头控件初始高度 */
     private void getHeadViewOriginalHeight() {
         mHeadViewHeight = mHeadView.getHeight();
     }

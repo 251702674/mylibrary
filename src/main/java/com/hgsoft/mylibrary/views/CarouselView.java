@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import com.hgsoft.mylibrary.R;
-import com.hgsoft.mylibrary.adapter.recycler.BasePageAdapter;
+import com.hgsoft.mylibrary.adapter.pager.BasePageAdapter;
 import com.hgsoft.mylibrary.utils.ScreenUtil;
 
 import java.util.List;
