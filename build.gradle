@@ -23,8 +23,10 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.2.1'
     compile 'com.android.support:recyclerview-v7:22.2.1'
     compile 'com.android.support:cardview-v7:22.2.1'
+    compile 'com.android.support:design:22.2.1'
     compile 'com.squareup.okhttp:okhttp:2.4.0'
     compile 'com.google.code.gson:gson:2.3.1'
     compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.4'
-//    compile 'com.diegocarloslima:fgelv:0.1.+@aar' // 分组ExpandableListView
+    //    compile 'com.diegocarloslima:fgelv:0.1.+@aar' // 分组ExpandableListView
+
 }

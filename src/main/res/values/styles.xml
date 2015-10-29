@@ -1,0 +1,167 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="BaseTheme">
+
+    </style>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/blue_700</item>
+        <item name="colorPrimaryDark">@color/blue_900</item>
+        <item name="colorAccent">@color/blue_700</item>
+        <item name="colorControlNormal">@color/blue_700</item>
+    </style>
+
+    <!-- toolbar 主题 -->
+    <style name="Toolbar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorPrimary">@color/blue_700</item>
+        <item name="colorPrimaryDark">@color/blue_900</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+    </style>
+
+    <!-- 选项卡 主题 -->
+    <style name="TabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="colorAccent">@color/blue_700</item>
+        <item name="colorPrimary">@color/blue_700</item>
+        <item name="colorPrimaryDark">@color/blue_900</item>
+        <item name="colorControlNormal">@color/blue_700</item>
+        <item name="android:textColorPrimary">@color/blue_700</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+    </style>
+
+    <!-- Dialog 主题 -->
+    <style name="LoadingDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/blue_700</item>
+        <item name="colorPrimaryDark">@color/blue_900</item>
+        <item name="colorAccent">@color/blue_700</item>
+        <item name="colorControlNormal">@color/blue_700</item>
+    </style>
+
+    <!-- 文本框 样式 -->
+    <style name="TextViewStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/black_87</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <!-- 编辑框 样式 -->
+    <!--<style name="EditTextStyle">-->
+        <!--<item name="android:textAppearance">?android:textAppearanceSmall</item>-->
+        <!--<item name="android:singleLine">true</item>-->
+        <!--<item name="android:textColor">@color/black_87</item>-->
+        <!--<item name="android:paddingBottom">@dimen/dp_12</item>-->
+        <!--<item name="android:paddingTop">@dimen/dp_12</item>-->
+        <!--<item name="android:textSize">14sp</item>-->
+        <!--<item name="android:paddingRight">@dimen/dp_8</item>-->
+        <!--<item name="android:paddingLeft">@dimen/dp_8</item>-->
+        <!--<item name="android:background">@drawable/select_edit_text</item>-->
+    <!--</style>-->
+
+    <!-- 卡片布局 样式 -->
+    <!--<style name="CardLayoutStyle">-->
+        <!--<item name="android:gravity">center</item>-->
+        <!--<item name="android:paddingTop">@dimen/dp_16</item>-->
+        <!--<item name="android:paddingBottom">@dimen/dp_16</item>-->
+        <!--<item name="android:paddingRight">@dimen/dp_32</item>-->
+        <!--<item name="android:paddingLeft">@dimen/dp_32</item>-->
+    <!--</style>-->
+
+    <!-- 首页 模块样式1 -->
+    <!--<style name="HomeCardViewItem1">-->
+        <!--<item name="android:gravity">center</item>-->
+        <!--<item name="android:background">@drawable/select_pressed_grey_with_grey_frame</item>-->
+        <!--<item name="android:paddingRight">@dimen/dp_24</item>-->
+        <!--<item name="android:paddingLeft">@dimen/dp_24</item>-->
+        <!--<item name="android:clickable">true</item>-->
+        <!--<item name="android:paddingTop">@dimen/dp_8</item>-->
+        <!--<item name="android:paddingBottom">@dimen/dp_8</item>-->
+        <!--<item name="android:textColor">@color/black_87</item>-->
+    <!--</style>-->
+
+    <!-- 首页 模块样式2 -->
+    <!--<style name="HomeCardViewItem2">-->
+        <!--<item name="android:clickable">true</item>-->
+        <!--<item name="android:background">@drawable/select_pressed_grey_with_grey_frame</item>-->
+        <!--<item name="android:textColor">@color/black_87</item>-->
+        <!--<item name="android:padding">@dimen/dp_8</item>-->
+    <!--</style>-->
+
+    <!-- 首页 模块样式3 -->
+    <!--<style name="HomeCardViewItem3">-->
+        <!--<item name="android:clickable">true</item>-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">match_parent</item>-->
+        <!--<item name="android:background">@drawable/select_pressed_grey_with_grey_frame</item>-->
+        <!--<item name="android:textColor">@color/black_87</item>-->
+        <!--<item name="android:gravity">center</item>-->
+        <!--<item name="android:padding">@dimen/dp_16</item>-->
+    <!--</style>-->
+
+    <!--<style name="ButtonStyle">-->
+        <!--<item name="android:gravity">center</item>-->
+        <!--<item name="android:layout_margin">@dimen/dp_12</item>-->
+        <!--<item name="android:paddingRight">@dimen/dp_12</item>-->
+        <!--<item name="android:paddingLeft">@dimen/dp_12</item>-->
+        <!--<item name="android:background">@drawable/shape_blue_corners_4dp</item>-->
+        <!--<item name="android:textColor">@color/white</item>-->
+        <!--<item name="android:textAppearance">?android:textAppearanceSmall</item>-->
+    <!--</style>-->
+
+    <!--<style name="MyLayoutStyle">-->
+        <!--<item name="android:gravity">center</item>-->
+        <!--<item name="android:paddingTop">@dimen/dp_12</item>-->
+        <!--<item name="android:paddingBottom">@dimen/dp_12</item>-->
+        <!--<item name="android:paddingRight">@dimen/dp_16</item>-->
+        <!--<item name="android:paddingLeft">@dimen/dp_16</item>-->
+        <!--<item name="android:layout_marginLeft">@dimen/dp_12</item>-->
+        <!--<item name="android:layout_marginRight">@dimen/dp_12</item>-->
+        <!--<item name="android:layout_marginTop">@dimen/dp_8</item>-->
+        <!--<item name="android:layout_marginBottom">@dimen/dp_8</item>-->
+        <!--<item name="android:background">@drawable/shape_white_corners_0dp</item>-->
+    <!--</style>-->
+
+    <!--<style name="SearchView" parent="Widget.AppCompat.Light.SearchView">-->
+        <!--<item name="colorPrimary">@color/black_54</item>-->
+        <!--<item name="colorAccent">@color/black_54</item>-->
+        <!--<item name="colorPrimaryDark">@color/blueDark</item>-->
+        <!--<item name="colorControlNormal">@color/black_54</item>-->
+        <!--<item name="android:textAppearance">@style/TextAppearanceStyle</item>-->
+        <!--<item name="isLightTheme">false</item>-->
+        <!--<item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>-->
+    <!--</style>-->
+
+    <!--<style name="TextAppearanceStyle">-->
+        <!--<item name="android:textColor">@color/black_54</item>-->
+    <!--</style>-->
+
+    <!--<style name="popwin_anim_style">-->
+        <!--<item name="android:windowEnterAnimation">@anim/popwin_show</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/popwin_hide</item>-->
+    <!--</style>-->
+
+    <style name="loading_dialog" parent="@android:style/Theme.Dialog">
+
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 屏幕背景不变暗 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>
