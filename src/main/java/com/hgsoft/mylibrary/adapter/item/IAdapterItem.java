@@ -1,4 +1,4 @@
-package com.hgsoft.mylibrary.adapter;
+package com.hgsoft.mylibrary.adapter.item;
 
 import android.support.annotation.LayoutRes;
 import android.view.View;
@@ -6,7 +6,7 @@ import android.view.View;
 /**
  *
  */
-public interface AdapterItem<T> {
+public interface IAdapterItem<T> {
 
     /**
      * @return item布局文件的layoutId
